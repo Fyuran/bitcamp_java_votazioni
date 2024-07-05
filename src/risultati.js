@@ -60,15 +60,15 @@ function listaPartecipantiEVoti() {
     tFoot.innerHTML = "";
 
     let paragraph = document.createElement("p");
-    paragraph.textContent = `Il partecipante con il maggior numero di voti è ${partecipanti[getMaxIndex(voti)]} il numero: ${getMaxIndex(voti) + 1}`;
+    paragraph.textContent = `Il partecipante con il maggior numero di voti Ã¨ ${partecipanti[getMaxIndex(voti)]} il numero: ${getMaxIndex(voti) + 1}`;
     tFoot.appendChild(paragraph);
 
     paragraph = document.createElement("p");
-    paragraph.textContent = `Il partecipante con il minor numero di voti è ${partecipanti[getMinIndex(voti)]} il numero: ${getMinIndex(voti) + 1}`;
+    paragraph.textContent = `Il partecipante con il minor numero di voti Ã¨ ${partecipanti[getMinIndex(voti)]} il numero: ${getMinIndex(voti) + 1}`;
     tFoot.appendChild(paragraph);
 
     paragraph = document.createElement("p");
-    paragraph.textContent = `La somma dei voti è: ${voti.reduce((sum, val) => sum + val)}`;
+    paragraph.textContent = `La somma dei voti Ã¨: ${voti.reduce((sum, val) => sum + val)}`;
     tFoot.appendChild(paragraph);
 
     shuffle(partecipanti);
