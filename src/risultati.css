@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    table-layout: fixed;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+}
+
+    .footer-section h3 {
+        border-bottom: 2px solid #777;
+        padding-bottom: 10px;
+    }
+
+    .footer-section a {
+        color: #fff;
+        text-decoration: none;
+        display: block;
+        margin: 5px 0;
+    }
+
+        .footer-section a:hover {
+            text-decoration: underline;
+        }
+
+.footer-bottom {
+    margin-top: 20px;
+    border-top: 1px solid #777;
+    padding-top: 10px;
+}
+
+.tut-img {
+    display: block;
+    width: 80%;
+    height: auto;
+}
+
+.download-btn {
+    display:inline-block;
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+    .download-btn:hover {
+        background-color: RoyalBlue;
+    }
